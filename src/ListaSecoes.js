@@ -74,7 +74,7 @@ export default function ListaSecoes(){
         }
         promise.then(deuCerto)
         promise.catch(deuRuim)
-    }, )
+    }, [idFilme])
 
     return (
         <StyledListaSecoes>
